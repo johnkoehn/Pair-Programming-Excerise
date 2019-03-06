@@ -1,0 +1,30 @@
+We need to create a GET endpoint for getting users by combining two api calls from https://jsonplaceholder.typicode.com/users and https://jsonplaceholder.typicode.com/posts.
+
+
+Example schema
+[{
+   "id":1,
+   "name":"Leanne Graham",
+   "username":"Bret",
+   "email":"Sincere@april.biz",
+   "address":{
+      "street":"Kulas Light",
+      "suite":"Apt. 556",
+      "city":"Gwenborough",
+      "zipcode":"92998-3874"
+   },
+   "phone":"1-770-736-8031 x56442",
+   "website":"hildegard.org",
+   "posts":[
+      {
+         "id":1,
+         "title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+         "body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+      },
+      {
+         "id":2,
+         "title":"another post",
+         "body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+      }
+   ]
+}]
