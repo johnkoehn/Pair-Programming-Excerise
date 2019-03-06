@@ -1,0 +1,21 @@
+{
+    "main": "src/server.js",
+    "jest": {
+        "clearMocks": true,
+        "coverageDirectory": "../coverage",
+        "rootDir": "./src/",
+        "testEnvironment": "node"
+    },
+    "dependencies": {
+        "hapi": "^18.1.0",
+        "node-fetch": "^2.3.0"
+    },
+    "devDependencies": {
+        "chance": "^1.0.18",
+        "jest": "^24.1.0"
+    },
+    "scripts": {
+        "start": "node ./src/server.js",
+        "test": "jest --watch"
+    }
+}
